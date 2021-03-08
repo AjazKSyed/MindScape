@@ -3,8 +3,8 @@
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -12,12 +12,13 @@
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" tag="1" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Launch Gradient" translatesAutoresizingMaskIntoConstraints="NO" id="mZk-MK-QlG">
-                                <rect key="frame" x="-317" y="-90" width="1024" height="1024"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" fixedFrame="YES" image="Launch Logo" translatesAutoresizingMaskIntoConstraints="NO" id="DhF-So-Vh1">
+                                <rect key="frame" x="27" y="219" width="337" height="341"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MindScape" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SSm-ha-cR3">
                                 <rect key="frame" x="64" y="750" width="273" height="60"/>
@@ -26,21 +27,14 @@
                                     <constraint firstAttribute="height" constant="60" id="clS-D3-1q8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="33"/>
-                                <color key="textColor" red="0.79462260009999997" green="0.90563124419999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="shadowColor" red="0.51584333179999997" green="0.6354946494" blue="0.8317456245" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" name="Highlighted Text"/>
                                 <size key="shadowOffset" width="0.0" height="2"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" fixedFrame="YES" image="Launch Logo" translatesAutoresizingMaskIntoConstraints="NO" id="DhF-So-Vh1">
-                                <rect key="frame" x="27" y="219" width="337" height="341"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="Launch"/>
                         <constraints>
-                            <constraint firstItem="mZk-MK-QlG" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="1f1-ix-Yja"/>
-                            <constraint firstItem="mZk-MK-QlG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Qqu-56-CET"/>
                             <constraint firstItem="SSm-ha-cR3" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ftf-0c-kpe"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SSm-ha-cR3" secondAttribute="trailing" constant="53" id="jze-na-xpp"/>
                             <constraint firstItem="SSm-ha-cR3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="mF4-qv-aDC"/>
@@ -53,10 +47,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Launch Gradient" width="1024" height="1024"/>
         <image name="Launch Logo" width="1024" height="1024"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <namedColor name="Highlighted Text">
+            <color red="0.15686274509803921" green="0.20000000000000001" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Launch">
+            <color red="0.49019607843137253" green="0.58823529411764708" blue="0.77254901960784317" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
     </resources>
 </document>

@@ -18,6 +18,7 @@
 		A5D5106025F444AF00700F5D /* LightModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5105F25F444AF00700F5D /* LightModeViewController.swift */; };
 		A5D5106525F4476100700F5D /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5106425F4476100700F5D /* ConnectViewController.swift */; };
 		A5D5106A25F4476D00700F5D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5106925F4476D00700F5D /* HomeViewController.swift */; };
+		A5F9E44A25F6C9C7004EB085 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F9E44925F6C9C7004EB085 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A5D5105F25F444AF00700F5D /* LightModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightModeViewController.swift; sourceTree = "<group>"; };
 		A5D5106425F4476100700F5D /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
 		A5D5106925F4476D00700F5D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A5F9E44925F6C9C7004EB085 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				A5D5105F25F444AF00700F5D /* LightModeViewController.swift */,
 				A5D5106425F4476100700F5D /* ConnectViewController.swift */,
 				A5D5106925F4476D00700F5D /* HomeViewController.swift */,
+				A5F9E44925F6C9C7004EB085 /* SettingsViewController.swift */,
 			);
 			path = MindScape;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				A5D5106525F4476100700F5D /* ConnectViewController.swift in Sources */,
 				A5D5106025F444AF00700F5D /* LightModeViewController.swift in Sources */,
+				A5F9E44A25F6C9C7004EB085 /* SettingsViewController.swift in Sources */,
 				A5A32EAC25F415BB001B3015 /* Profile.swift in Sources */,
 				A5A32EA825F415BB001B3015 /* AppDelegate.swift in Sources */,
 				A5A32EAA25F415BB001B3015 /* SceneDelegate.swift in Sources */,
