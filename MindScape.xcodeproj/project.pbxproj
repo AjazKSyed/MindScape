@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		A5A32EA825F415BB001B3015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A32EA725F415BB001B3015 /* AppDelegate.swift */; };
 		A5A32EAA25F415BB001B3015 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A32EA925F415BB001B3015 /* SceneDelegate.swift */; };
-		A5A32EAC25F415BB001B3015 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A32EAB25F415BB001B3015 /* ViewController.swift */; };
+		A5A32EAC25F415BB001B3015 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A32EAB25F415BB001B3015 /* Profile.swift */; };
 		A5A32EAF25F415BB001B3015 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A32EAD25F415BB001B3015 /* Main.storyboard */; };
 		A5A32EB125F415BC001B3015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A32EB025F415BC001B3015 /* Assets.xcassets */; };
 		A5A32EB425F415BC001B3015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A32EB225F415BC001B3015 /* LaunchScreen.storyboard */; };
 		A5A32EBF25F415BD001B3015 /* MindScapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A32EBE25F415BD001B3015 /* MindScapeTests.swift */; };
 		A5A32ECA25F415BD001B3015 /* MindScapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A32EC925F415BD001B3015 /* MindScapeUITests.swift */; };
+		A5D5106025F444AF00700F5D /* LightModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5105F25F444AF00700F5D /* LightModeViewController.swift */; };
+		A5D5106525F4476100700F5D /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5106425F4476100700F5D /* ConnectViewController.swift */; };
+		A5D5106A25F4476D00700F5D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5106925F4476D00700F5D /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 		A5A32EA425F415BB001B3015 /* MindScape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindScape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A32EA725F415BB001B3015 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5A32EA925F415BB001B3015 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5A32EAB25F415BB001B3015 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5A32EAB25F415BB001B3015 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		A5A32EAE25F415BB001B3015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5A32EB025F415BC001B3015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5A32EB325F415BC001B3015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		A5A32EC525F415BD001B3015 /* MindScapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindScapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A32EC925F415BD001B3015 /* MindScapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindScapeUITests.swift; sourceTree = "<group>"; };
 		A5A32ECB25F415BD001B3015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D5105F25F444AF00700F5D /* LightModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightModeViewController.swift; sourceTree = "<group>"; };
+		A5D5106425F4476100700F5D /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
+		A5D5106925F4476D00700F5D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,14 @@
 			children = (
 				A5A32EA725F415BB001B3015 /* AppDelegate.swift */,
 				A5A32EA925F415BB001B3015 /* SceneDelegate.swift */,
-				A5A32EAB25F415BB001B3015 /* ViewController.swift */,
+				A5A32EAB25F415BB001B3015 /* Profile.swift */,
 				A5A32EAD25F415BB001B3015 /* Main.storyboard */,
 				A5A32EB025F415BC001B3015 /* Assets.xcassets */,
 				A5A32EB225F415BC001B3015 /* LaunchScreen.storyboard */,
 				A5A32EB525F415BC001B3015 /* Info.plist */,
+				A5D5105F25F444AF00700F5D /* LightModeViewController.swift */,
+				A5D5106425F4476100700F5D /* ConnectViewController.swift */,
+				A5D5106925F4476D00700F5D /* HomeViewController.swift */,
 			);
 			path = MindScape;
 			sourceTree = "<group>";
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A32EAC25F415BB001B3015 /* ViewController.swift in Sources */,
+				A5D5106525F4476100700F5D /* ConnectViewController.swift in Sources */,
+				A5D5106025F444AF00700F5D /* LightModeViewController.swift in Sources */,
+				A5A32EAC25F415BB001B3015 /* Profile.swift in Sources */,
 				A5A32EA825F415BB001B3015 /* AppDelegate.swift in Sources */,
 				A5A32EAA25F415BB001B3015 /* SceneDelegate.swift in Sources */,
+				A5D5106A25F4476D00700F5D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +529,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WN83LG38LK;
 				INFOPLIST_FILE = MindScapeUITests/Info.plist;
@@ -537,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WN83LG38LK;
 				INFOPLIST_FILE = MindScapeUITests/Info.plist;
